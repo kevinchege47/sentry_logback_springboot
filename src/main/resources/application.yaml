@@ -1,0 +1,16 @@
+#logging:
+#  level:
+#    root: TRACE
+#    com.kevinchege47: TRACE
+#    pattern:
+#      console: "%d %-5level %logger : %msg%n"
+logging:
+  level:
+    root: DEBUG
+sentry:
+  dsn: https://c6160e1aef0247b38c02f75f3e6ed83c@o4505465641172992.ingest.sentry.io/4505465823625216
+  # Set traces-sample-rate to 1.0 to capture 100% of transactions for performance monitoring.
+  # We recommend adjusting this value in production.
+  traces-sample-rate: 1.0
+debug: true
+
